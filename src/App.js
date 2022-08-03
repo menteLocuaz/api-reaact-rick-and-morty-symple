@@ -4,7 +4,7 @@ import Personaje from "./components/personaje";
 
 function App() {
   return (
-    <div className="container">
+    <div className="py-6 px-16 justify-items-center container mx-auto px-4">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
